@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.vebinars {
+    margin: 70px;
+}
+
+.vebinars h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.vebinars .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 25px;
+}
+
+.cardItem {
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, .2);
+    margin: 25px 0;
+    width: 30%;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.cardItem h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+}
+
+.cardItem p {
+    color: #929292;
+    margin: 0 0 25px 0;
+}
+
+.cardItem img {
+    width: 100%;
+}
+
+.cardItem a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+    transition: all .5s ease;
+    border: 1px solid white;
+}
+
+.cardItem a:hover {
+    color: black;
+    border: 1px solid black;
+    background: white;
+}
+
+@media (max-width: 1285px) {
+    .vebinars h3 {
+        font-size: 28px;
+    }
+    .vebinars .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 100%;
+      padding: 25px;
+    }
+    .cardItem {
+        width: 300px;
+    }
+    .cardItem h3 {
+        font-size: 20px;
+    }
+    .cardItem p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .vebinars h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+    }
+    .vebinars .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 32px;
+        width: 100%;
+        padding: 25px;
+      }
+
+}
+
+@media (max-width: 925px) {
+    .vebinars h3 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 858px) {
+    .vebinars h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 795px) {
+    .vebinars h3 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 732px) {
+    .vebinars h3 {
+        font-size: 16px;
+    }
+}
